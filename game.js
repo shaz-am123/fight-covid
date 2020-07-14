@@ -9,13 +9,13 @@ function initial(){
 	health=100;
 
 	enemy_image=new Image;
-	enemy_image.src="assets/enemy.gif";
+	enemy_image.src="enemy.gif";
 
 	player_image=new Image;
-	player_image.src="assets/player.gif";
+	player_image.src="player.gif";
 
 	gem_image=new Image;
-	gem_image.src="assets/gem.png";
+	gem_image.src="gem.png";
 
 	e1={
 		x:1300,
