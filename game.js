@@ -107,7 +107,10 @@ function update(){
 	if(collission(player,gem)==true)
 	{
 		game_over=true;
-		alert("YOU WON!!!");
+		alert("YOU WON!!!\n Click Ok to restart");
+		window.close();
+		window.open("index.html");
+		
 	}
 
 	for(let i=0;i<enemy.length;i++)
@@ -119,7 +122,9 @@ function update(){
 	if(health==0)
 	{
 		game_over=true;
-		alert("You Lost, better luck next time");
+		alert("You Lost, better luck next time\nClick Ok to restart");
+		window.close();
+		window.open("index.html");
 	}
 }
 function gameloop(){
